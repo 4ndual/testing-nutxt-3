@@ -5,6 +5,11 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss'
 
       ],
+    runtimeConfig: {
+        public: {
+          baseURL: process.env.BASE_URL || 'https://fakestoreapi.com/products',
+        },
+    },
     image: {
         dir:'assets/images'
       }
