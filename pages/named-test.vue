@@ -8,10 +8,9 @@
     </div>
 </template>
 <script setup lang="ts">
-// definePageMeta({
-//   middleware: ["test"]
-//   // or middleware: 'auth'
-// })
+definePageMeta({
+  middleware: ['named-test']
+})
 
 const hello: string = "hellonuxt"
 //   console.log("XDDEFWRGTHYUK<UHTGRFDS")
