@@ -3,7 +3,7 @@ export default defineNuxtPlugin(() => {
       console.log('this global middleware was added in a plugin')
     }, { global: true })
   
-    addRouteMiddleware('named-test', () => {
+    addRouteMiddleware('named-test2', () => {
       console.log('this named middleware was added in a plugin 2')
     })
   })

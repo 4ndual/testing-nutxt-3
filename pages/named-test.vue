@@ -9,7 +9,7 @@
 </template>
 <script setup lang="ts">
 definePageMeta({
-  middleware: ['named-test']
+  middleware: ['test2']
 })
 
 const hello: string = "hellonuxt"
