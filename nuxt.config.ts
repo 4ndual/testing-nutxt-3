@@ -13,6 +13,15 @@ export default defineNuxtConfig({
     },
     image: {
         dir:'assets/images'
-      }
+      },
+
+    //   vite: {
+    //     server: {
+    //         hmr: {
+    //              clientPort: 3000,
+    //              port: 3000
+    //         }
+    //     }  
+    // }
 
 })

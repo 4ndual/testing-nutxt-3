@@ -70,7 +70,10 @@
     </nav>
   </header>
   <div>
-  <slot/>
+  <div class="bg-slate-500">
+    <br>
+    <slot/>
+  </div>
   </div>
 </template>
 <script setup lang="ts">
